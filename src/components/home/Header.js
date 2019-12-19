@@ -1,11 +1,8 @@
 import React from 'react';
+import Hero from '../globals/Hero'
 
 const Header = () => {
-    return (
-        <div>
-            Hello From Header
-        </div>
-    )
-}
+    return <Hero></Hero>
+};
 
 export default Header
